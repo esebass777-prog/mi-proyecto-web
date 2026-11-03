@@ -48,6 +48,7 @@ $nombre = $_SESSION['nombre'];
         <a class="opcion claro"  href="mapa/mapa.php"><i class="fa-solid fa-location-dot"></i>🗺️ Ver Mapa / GeoUbicación</a>
         <a class="opcion claro"  href="encuesta/encuesta.php"><i class="fa-solid fa-pen"></i>📋 Realizar Encuesta</a>
         <a class="opcion oscuro" href="chat.php"><i class="fa-solid fa-comment"></i>💬 Chat Grupal (En Vivo)</a>
+        <a class="opcion claro" href="video.php"><i class="fa-solid fa-video"></i>🎥 Ver mi video</a>
     </main>
 </body>
 </html>
