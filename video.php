@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi video</title>
+  <title>VIDEO DE CHANGOS</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
