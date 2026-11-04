@@ -7,6 +7,9 @@ RUN docker-php-ext-install mysqli pdo_mysql
 # 3. Copiamos nuestro proyecto a la carpeta pública de Apache
 COPY . /var/www/html/
 
+# 3.1 Permiso para que Apache guarde las fotos subidas
+RUN mkdir -p /var/www/html/foto/subidas && chown -R www-data:www-data /var/www/html/foto/subidas
+
 # 4. Hacemos que Apache escuche en el puerto que Render le indique
 ENV PORT=10000
 RUN sed -i 's/80/${PORT}/g' \
